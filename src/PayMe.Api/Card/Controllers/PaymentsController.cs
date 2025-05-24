@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 
-using PayMe.Api.Requests;
+using PayMe.Api.Card.Requests;
 
-namespace PayMe.Api.Controllers;
+namespace PayMe.Api.Card.Controllers;
 
 [ApiController]
 [Route("[controller]")]
