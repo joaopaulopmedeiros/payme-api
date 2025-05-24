@@ -1,6 +1,6 @@
 namespace PayMe.Api.Card.Create.Requests;
 
-public record struct CardPaymentRequest(
+public record struct CreateCardPaymentRequest(
     string CardNumber,
     string CardHolderName,
     string ExpirationMonth,

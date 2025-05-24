@@ -5,12 +5,13 @@ using PayMe.Api.Card.Create.Requests;
 namespace PayMe.Api.Card.Controllers;
 
 [ApiController]
-[Route("payment")]
-public class PaymentsController : ControllerBase
+[Route("payment/card")]
+[ApiExplorerSettings(GroupName = "card")]
+public class CreateCardPaymentController : ControllerBase
 {
-    [HttpPost("card")]
+    [HttpPost]
     [ProducesResponseType(StatusCodes.Status202Accepted)]
-    public async Task<ActionResult> PayAsync([FromBody] CardPaymentRequest request)
+    public async Task<ActionResult> HandleAsync([FromBody] CreateCardPaymentRequest request)
     {
         await Task.Yield();
         return Accepted();
