@@ -15,3 +15,5 @@ app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v1/swagger.json", 
 app.MapCardEndpoints();
 
 app.Run();
+
+public partial class Program { }

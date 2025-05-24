@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C23DC4DE-9AA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayMe.Api", "src\PayMe.Api\PayMe.Api.csproj", "{76E93AC5-8905-4865-BC31-28CC4F8292C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{06808EC4-572C-42F5-A792-C577B6D92946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayMe.Api.FunctionalTests", "tests\PayMe.Api.FunctionalTests\PayMe.Api.FunctionalTests.csproj", "{406215BC-3D9D-40B6-A7A7-7D7EBA45104F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{76E93AC5-8905-4865-BC31-28CC4F8292C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E93AC5-8905-4865-BC31-28CC4F8292C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E93AC5-8905-4865-BC31-28CC4F8292C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406215BC-3D9D-40B6-A7A7-7D7EBA45104F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406215BC-3D9D-40B6-A7A7-7D7EBA45104F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406215BC-3D9D-40B6-A7A7-7D7EBA45104F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406215BC-3D9D-40B6-A7A7-7D7EBA45104F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{76E93AC5-8905-4865-BC31-28CC4F8292C9} = {C23DC4DE-9AA7-4DFB-B7F3-FAAD0277EA44}
+		{406215BC-3D9D-40B6-A7A7-7D7EBA45104F} = {06808EC4-572C-42F5-A792-C577B6D92946}
 	EndGlobalSection
 EndGlobal
