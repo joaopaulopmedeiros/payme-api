@@ -1,4 +1,4 @@
-namespace PayMe.Api.Card.Requests;
+namespace PayMe.Api.Card.Create.Requests;
 
 public record struct CardPaymentRequest(
     string CardNumber,
